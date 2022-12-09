@@ -9,8 +9,9 @@ def hello_world():
     return 'Hello, World!'
 
 def temp():
-    print("hi")
-    time.sleep(10)
+    while True:
+        print("hi")
+        time.sleep(10)
 
 if __name__ == "__main__":
     t1 = Thread(target=temp)
